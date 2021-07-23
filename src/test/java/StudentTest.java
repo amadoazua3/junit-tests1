@@ -51,4 +51,11 @@ public class StudentTest {
         assertEquals(70, fer.getGradeAverage(), 0);
     }
 
+    // TODO: test to make sure that updateGrade works -> use getGradeAverage() to do so.
+    //  getGradeAverage() should be what you would expect from updating the lowest grade
+
+    // TODO: do the same for deleteGrade() -> make sure it is deleted by testing the
+    //  size of the grades list and checking the new average
+
+
 }

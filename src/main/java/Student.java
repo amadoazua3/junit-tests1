@@ -35,4 +35,28 @@ public class Student {
         }
         return sum / getGrades().size();
     }
+
+    // TODO: updateGrade(int newGrade){} --> Find lowest grade and update to newGrade
+    // TODO: deleteGrade() --> Find lowest grade and drop from the grades list
+
+
+//    public int updateGrade(int newGrade){
+//
+//        int lowgrade = 20;
+//
+//        if(newGrade < lowgrade) {
+//            newGrade = lowgrade;
+//        }
+//
+//      return lowgrade;
+//    }
+//
+//    public void deleteGrade(){
+//
+//
+//
+//    }
+
+
+
 }
